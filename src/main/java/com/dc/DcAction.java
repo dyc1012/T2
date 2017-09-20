@@ -26,7 +26,7 @@ public class DcAction extends HttpServlet
 	{
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter pw = response.getWriter();
-		pw.println("369------->" + Math.random());
+		pw.println("369123123123------->" + Math.random());
 		pw.println("<hr/>");
 		pw.println("Served at: " + request.getContextPath());
 		pw.println("<hr/>");
