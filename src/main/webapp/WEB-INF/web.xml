@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-app_2_3.xsd"
+	version="2.3">
+
+	<servlet>
+		<servlet-name>spmvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DC</servlet-name>
+		<servlet-class>com.dc.DcAction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>spmvc</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DC</servlet-name>
+		<url-pattern>/DC</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
