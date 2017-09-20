@@ -19,7 +19,7 @@ public class DcAction extends HttpServlet
 
 	public DcAction()
 	{
-		super();
+		super(); 
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException

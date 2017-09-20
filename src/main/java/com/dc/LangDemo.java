@@ -54,7 +54,7 @@ public class LangDemo
 	public void charSetUtilsDemo()
 	{
 		System.out.println("**CharSetUtilsDemo**");
-		System.out.println("¼ÆËã×Ö·û´®ÖÐ°üº¬Ä³×Ö·ûÊý.");
+		System.out.println("¼ÆËã×Ö·û´®ÖÐ°üº¬Ä³×Ö·ûÊý. ");
 		System.out.println(CharSetUtils.count("The quick brown fox jumps over the lazy dog.", "aeiou"));
 
 		System.out.println("É¾³ý×Ö·û´®ÖÐÄ³×Ö·û.");
