@@ -21,7 +21,7 @@
 </head>
 <body>
 	${msg} &nbsp;&nbsp;&nbsp;
-	<a href="/z2/index.jsp" class="easyui-linkbutton"
+	<a href="<%=request.getContextPath()%>/index.jsp" class="easyui-linkbutton"
 		data-options="iconCls:'icon-back'">Back</a>
 	<HR />
 
