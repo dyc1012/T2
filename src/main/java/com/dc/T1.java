@@ -97,7 +97,7 @@ public class T1
 	public static void main(String[] args)
 	{
 		// 连接本地的 Redis 服务
-		// Jedis jedis = new Jedis("192.168.20.136");
+		// Jedis jedis = new Jedis("192.168.20.136");xxxxx
 		// Jedis jedis = new Jedis("192.168.20.136", 16379);
 		Jedis jedis = new Jedis("192.168.20.136", 16379);
 		// Jedis jedis = new Jedis("172.17.0.11", 6379);
